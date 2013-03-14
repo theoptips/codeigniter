@@ -14,7 +14,7 @@
 			// $test_variable['test'] = "Test Direct access"; // didn't work
 
 			$this->view_data['account_number'] = $account_number;
-			$this->load->view('login',$this->view_data, $test_variable);
+			$this->load->view('login',$this->view_data);
 		}
 	}
 
