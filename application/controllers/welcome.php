@@ -1,6 +1,9 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class Welcome extends CI_Controller {
+require("main.php");
+
+class Welcome extends Main
+{
 
 	/**
 	 * Index Page for this controller.
@@ -28,6 +31,10 @@ class Welcome extends CI_Controller {
 	public function login()
 	{
 		$this->load->view('login');
+	}
+	public function user_login()
+	{
+		$this->login();
 	}
 }
 
