@@ -28,10 +28,11 @@ class Welcome extends Main
 	{
 		echo "Hello";
 	}
-	public function login()
-	{
-		$this->load->view('login');
-	}
+	//overwriting parents
+	// public function login()
+	// {
+	// 	$this->load->view('login');
+	// }
 	public function user_login()
 	{
 		$this->login();

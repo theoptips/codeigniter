@@ -4,6 +4,7 @@
 		<title></title>
 	</head>
 	<body>
+		<?php echo $username; echo $age; echo "Account#".$account_number;?>
 		<form action="">
 			<label for="email">Email:</label>
 			<input type="text" name="email" id="email"/>
